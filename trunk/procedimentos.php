@@ -16,11 +16,8 @@
 <?php include("_header.php") ?>
 
 
-<<<<<<< HEAD
 <div class="main" role="main">
-=======
-<!--Testando Nova Modificação--><div class="main" role="main">
->>>>>>> f45bd7d06620b2db1bef33d8569c4de50675be26
+
 
     <h1 class="main-title">Procedimentos</h1>
     <h2 class="sub-title">Atua como cirurgião geral e videolaparoscópico no tratamento das seguintes doenças:</h2>
