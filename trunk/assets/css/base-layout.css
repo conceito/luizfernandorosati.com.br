@@ -1,0 +1,496 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+.align-left{
+	float:left;
+	margin-right:1em;
+	margin-bottom:1em;
+}
+.align-right{
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+}
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    BASE
+|=================================================================================
+*/
+
+.main-title{
+    color: #AC1D20;
+    font-weight: 300;
+    font-size: 1.57em;
+}
+
+.sub-title{
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.under-title{
+    color: #575859;
+    font-size: 1.2em;
+    margin: -1.2em 0 .7em;
+}
+
+.alightright{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.alightleft{
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.list-zebra{}
+
+.list-zebra li{
+    border-bottom: #E0E0E0 solid 1px;
+    padding: 5px 0;
+}
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    LAYOUT
+|---------------------------------------------------------------------------------
+*/
+
+#header{}
+
+#header nav{
+    margin: 0 10px 1em 0;
+}
+
+.wrapper{
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #fff;  
+    
+}
+
+.full-height{
+	position:relative; /* needed for footer positioning*/
+  /*height:auto !important;  real browsers */	
+  height:100%; /* IE6: treaded as min-height*/	
+  min-height:100%; /* real browsers */
+}
+
+
+
+.page-home .wrapper,
+.page-home .full-height{
+	height:auto !important; /* real browsers */
+	min-height: 0 !important;
+}
+
+.logo{
+    margin: 30px 0;
+}
+
+.logo a{}
+
+.responsive_menu{}
+
+.responsive_menu select{
+    width: 100%;
+    border-bottom-width: 3px;
+}
+
+.header-menu{}
+
+.header-menu li{
+}
+
+.header-menu a:link,
+.header-menu a:visited{
+    display: block;
+  font-weight: 300;
+  font-size: 1.142857142857143em;
+  color: #575859;
+  border-bottom: #ABABAC solid 1px;
+  padding: 8px 0 0 0;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.header-menu a:hover{
+    text-decoration: none;
+    background-color: #F5F5F5;
+    padding-left: 10px;
+    color: #AC1D20;
+}
+
+.header-menu .active{
+    margin-right: -20px;
+}
+
+.header-menu .active a,
+.header-menu .active a:hover{
+    color: #AC1D20;
+    font-weight: 700;
+    cursor: default;
+    border-bottom-color: #AC1D20;
+	 padding-left: 10px;
+	 background:transparent;
+}
+
+
+.vcard{
+    color: #575859;
+    font-size: .9em;
+    font-weight: 300;
+    margin: 0 0 1em;
+}
+
+.vcard .tel{
+    font-weight: 500;
+}
+
+
+.list-box{
+    display: table;
+    width: 100%;
+}
+
+.list-box li{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+}
+
+.list-box li span{
+    border: #D3D3D3 solid 1px;
+    padding: 1em;
+    display: block;
+    margin: 5px;
+    background: #fff;
+}
+
+.table-logos{
+    border: none;
+}
+
+.table-logos tr{
+    border: none;
+}
+
+.table-logos td{
+    background: #fff;
+    border-spacing: 5px;
+    border: none;
+    vertical-align: middle;
+    padding: 20px;
+    text-align: center;
+    width: 190px;
+}
+
+
+
+
+/* ==========================================================================
+   *
+   * mNNNNNNNNm     
+   * y````````y   
+   * y        s  
+   * y        s  
+   * y        s  
+   * y        s  
+   * d+++--+++d 
+   * NMMN//MMMN  
+   *
+   *
+   * PHONE ONLY !!!
+   ========================================================================== */
+
+@media all and (max-width: 768px) {
+	
+	
+.full-height{	
+height:auto !important;  /* real browsers */
+}
+
+.table-logos td{
+    float: none;
+    clear: both;
+    display: block;
+    width: 80%;
+}
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   * 
+   * +yyyyhhhhdddddddddms
+   * sh-..............-Nd      mmddddddddddddddddddddddddddmm
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * yd`              .Md      M+                          /M
+   * yd`              .Md   +  M+                          /M
+   * yd`              .Md      MmddddddddddddddddddddddddddmM
+   * yd.              .Md      mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * yd.              .Md      ```````````:dddddd/```````````
+   * sdhdddddddmmmmmmmmNy                /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * TABLET and  UP
+   ========================================================================== */
+
+@media all and (min-width: 768px) {
+	
+.content{
+    background-color: #eee;
+    border-left: #AE1D22 solid 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.page-home .content{
+    background: none;
+    border: none;
+}
+
+    .wrapper{
+    background-image: url(../img/faux-columns.jpg);
+		
+	
+    background-repeat: repeat-y;
+    background-position: center top;
+}
+
+.logo{
+	width:90%;
+}
+
+.main{
+    padding-top: 30px;
+}
+
+.header-menu .active{
+    margin-right: -30px;
+}
+
+#header nav{
+    margin-bottom: 3em;
+}
+
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddmm
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * MmddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ```````````:dddddd/```````````
+   *           /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 980px) {
+    
+.page-home .wrapper{
+    background-image: url(../img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddddddddddddmm
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * MmddddddddddddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ````````````````:dddddd/````````````````
+   *             /dMMMMMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * RUGE DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 1200px) {
+	
+.header-menu .active{
+    margin-right: -40px;
+}
+
+
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
