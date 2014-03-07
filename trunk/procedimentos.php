@@ -35,13 +35,20 @@
     		</div>
     		<div id="collapse1" class="accordion-body collapse in">
     			<div class="accordion-inner clearfix">
-                    <p>É uma patologia muito comum, que acomete tanto homens quanto mulheres. Seu principal sintoma é a má digestão de alimentos gordurosos, gerando enjoos e em alguns casos, dor abdominal tipo cólica. Seu diagnóstico é realizado através da ultrassonografia que evidencia cálculos biliares. O tratamento pode ser realizado na maioria das vezes através da videolaparoscopia, uma forma minimamente invasiva. </p>
-                    <p><br>
-                      <a href="assets/img/procedimento-calculos.jpg" class="fb" rel="vesicula">
+                    <p>É uma patologia muito comum, que acomete tanto homens quanto mulheres. Seu principal sintoma é a má digestão de alimentos gordurosos, gerando enjoos e em alguns casos, dor abdominal tipo cólica. Seu diagnóstico é realizado através da ultrassonografia que evidencia cálculos biliares. O tratamento pode ser realizado na maioria das vezes através da videolaparoscopia, uma forma minimamente invasiva.
+                    
+                    <br>
+                    <br>
+                  
+                                            <a href="assets/img/procedimento-calculos.jpg" class="fb" rel="vesicula">
                         <img src="assets/img/procedimento-calculos-thumb.jpg" class="align-left" alt="" style="height:100px">
-                      
-                      <a href="assets/img/vesicula800.jpg" class="fb" rel="vesicula">
-                        <img src="assets/img/vesicula-thumb.jpg" class="align-left" alt="" style="height:100px"></a></p>
+
+                        
+                                            <a href="assets/img/procedimento-vesicula.jpg" class="fb" rel="vesicula">
+                        <img src="assets/img/procedimento-vesicula-thumb.jpg" class="align-left" alt="" style="height:100px"></a></p>
+
+                      </p>
+    			</p>
     			</div>
     		</div>
     	</div>
@@ -143,7 +150,7 @@
                     <br>
                     <a href="assets/img/procedimento-anatomia.jpg" class="fb" rel="neo"> <img src="assets/img/procedimento-anatomia-thumb.jpg" class="align-left" alt=""></a>
                     <a href="assets/img/procedimento-neoplasia.jpg" class="fb" rel="neo"><img src="assets/img/procedimento-neoplasia-thumb.jpg" class="align-left" alt=""></a>
-                    <a href="assets/img/tumores800.jpg" class="fb" rel="neo"><img src="assets/img/thumb-tumores800.jpg" class="align-left" alt=""></a>
+                    <a href="assets/img/procedimento-tumores.jpg" class="fb" rel="neo"><img src="assets/img/procedimento-tumores-thumb.jpg" class="align-left" alt=""></a>
     			</div>
     		</div>
     	</div>
@@ -156,8 +163,7 @@
     		</div>
     		<div id="collapse7" class="accordion-body collapse">
     			<div class="accordion-inner clearfix">
-    				<a href="assets/img/tireoide800.jpg" class="fb" rel=""> 
-                        <img src="assets/img/thumb-tireoide800.jpg" class="align-left" alt=""></a>A tireóide é um órgão que se localiza no pescoço, pesa cerca de 20g e seu formato se assemelha ao de uma borboleta com as asas abertas. Ela produz importantes substâncias para o nosso corpo, e pode ser acometida por diversas doenças, sendo algumas de tratamento clínico (hipertireoidismo e hipotireoidismo) e outras cujo tratamento é cirúrgico (nódulos, tumores, cistos).
+    				<a href="assets/img/procedimento-tireoide.jpg" class="fb" rel=""> <img src="assets/img/procedimento-tireoide-thumb.jpg" class="align-left" alt=""></a>A tireóide é um órgão que se localiza no pescoço, pesa cerca de 20g e seu formato se assemelha ao de uma borboleta com as asas abertas. Ela produz importantes substâncias para o nosso corpo, e pode ser acometida por diversas doenças, sendo algumas de tratamento clínico (hipertireoidismo e hipotireoidismo) e outras cujo tratamento é cirúrgico (nódulos, tumores, cistos).
     			</div>
     		</div>
     	</div>
